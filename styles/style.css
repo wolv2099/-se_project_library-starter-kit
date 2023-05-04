@@ -259,12 +259,27 @@
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+.staff__cards {
+  z-index: 1;
+  max-width: 760px;
+  margin-top: 68px;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  height: 420px;
+  width: 360px;
 }
 
 .card__content {
@@ -292,6 +307,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .membership {
@@ -312,11 +328,14 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-basis: auto;
 }
 
 .step {
-  /* Add styles */
+  max-width: 220px;
 }
 
 .step__title {
