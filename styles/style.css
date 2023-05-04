@@ -362,6 +362,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
@@ -378,10 +379,13 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 1;
+  margin-left: 120px;
 }
 
 .about__paragraph {
   margin: 0 0 32px;
+  gap: 32px;
 }
 
 .about__circle {
@@ -389,6 +393,9 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
