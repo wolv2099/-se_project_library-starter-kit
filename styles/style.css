@@ -402,7 +402,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
@@ -422,7 +422,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
