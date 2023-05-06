@@ -15,6 +15,9 @@
   position: relative;
   box-sizing: border-box;
 }
+.header__link:hover {
+  color: #1f69c9;
+}
 
 .nav {
   display: flex;
