@@ -17,22 +17,22 @@
             alt="Practicum Library Logo"
             class="logo"
           />
-          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+
           <ul class="nav__links">
             <li>
-              <section class="nav__link">Staff picks</section>
+              <a class="nav__link" href="#staff">Staff picks</a>
             </li>
             <li>
-              <section class="nav__link">Events</section>
+              <a class="nav__link" href="#Upcoming">Events</a>
             </li>
             <li>
-              <section class="nav__link">Become a member</section>
+              <a class="nav__link" href="#member">Become a member</a>
             </li>
             <li>
-              <section class="nav__link">About</section>
+              <a class="nav__link" href="#about">About</a>
             </li>
             <li>
-              <section class="nav__link">Contacts</section>
+              <a class="nav__link" href="#hours">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -59,6 +59,7 @@
       <main class="content">
         <section class="events">
           <div class="events__content">
+            <h2 id="Upcoming"></h2>
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
               In honor of Joan Feynman: Women in astrophysics
@@ -143,6 +144,7 @@
           class="staff"
           style="background-image: url(./images/staff_picks_background.jpg)"
         >
+          <h2 id ="staff"></id>
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__cards">
@@ -217,6 +219,7 @@
         </section>
 
         <section class="membership">
+          <h2 id="member"></h2>
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -273,6 +276,7 @@
         </section>
 
         <section class="about">
+          <h2 id="about"></h2>
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -306,6 +310,7 @@
             />
           </div>
           <div class="footer__column footer__column_content_hours">
+            <h2 id="hours"></h2>
             <h2 class="footer__heading">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">Weekdays: 9am - 8pm</li>
