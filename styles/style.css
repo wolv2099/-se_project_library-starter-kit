@@ -36,12 +36,12 @@
   list-style: none;
   margin: 8px 0 0;
   padding: 0%;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .nav__link:hover {
   color: #1f69c9;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .events {
@@ -106,7 +106,6 @@
 }
 
 .events__description {
-  position: absolute;
   font-size: 20px;
   line-height: 30px;
   padding-top: 32px;
