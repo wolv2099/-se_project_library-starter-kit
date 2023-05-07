@@ -269,8 +269,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style-type: none;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 
 .card {
