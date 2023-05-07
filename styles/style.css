@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -34,8 +34,6 @@
   justify-content: right;
   column-gap: 20px;
   list-style: none;
-  align-content: space-between;
-  height: 60px;
   margin: 8px 0 0;
   padding: 0%;
 }
@@ -62,7 +60,7 @@
 .events__heading {
   font-size: 20px;
   font-weight: 500;
-  /* line-height: 30px; */
+  line-height: 30px;
   margin: 0;
 }
 
@@ -71,7 +69,6 @@
   font-weight: 500;
   line-height: 52px;
   margin: 32px 0 0;
-  max-width: 532px;
 }
 
 .events__info-section {
@@ -148,20 +145,17 @@
 
 .person_name_feynman {
   z-index: 1;
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
   z-index: 1;
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   bottom: 18px;
   right: 216px;
 }
@@ -175,7 +169,6 @@
 
 .person_name_tarter {
   z-index: 1;
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -277,7 +270,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 40px;
   list-style-type: none;
   margin-right: auto;
   margin-left: auto;
@@ -395,7 +387,6 @@
 
 .about__paragraph {
   margin: 0 0 32px;
-  gap: 32px;
 }
 
 .about__circle {
