@@ -387,7 +387,9 @@
 .about__paragraph {
   margin: 0 0 32px;
 }
-
+.about__paragraph:last-child {
+  margin: 0px;
+}
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
