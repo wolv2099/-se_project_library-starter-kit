@@ -162,7 +162,6 @@
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
-  display: flex;
   flex-direction: column-reverse;
 }
 
