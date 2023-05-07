@@ -336,6 +336,7 @@
 
 .step {
   max-width: 220px;
+  flex-basis: auto;
 }
 
 .step__title {
