@@ -241,6 +241,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background: cover;
 }
 
 .staff__title {
@@ -270,8 +271,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 0px;
 }
 
@@ -333,11 +333,11 @@
   display: flex;
   gap: 40px;
   justify-content: center;
+  flex-basis: auto;
 }
 
 .step {
-  max-width: 220px;
-  flex-basis: auto;
+  width: 220px;
 }
 
 .step__title {
@@ -463,5 +463,5 @@
 }
 
 .footer__copyright {
-  margin: 108px 102px 60px 80px;
+  margin: 108px 0 0;
 }
