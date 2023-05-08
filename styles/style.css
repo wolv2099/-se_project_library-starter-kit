@@ -265,13 +265,13 @@
 .staff__cards {
   z-index: 1;
   max-width: 760px;
+  margin: auto;
   margin-top: 68px;
   gap: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style-type: none;
-  margin: auto;
   padding: 0px;
 }
 
@@ -333,7 +333,6 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-  flex-basis: auto;
 }
 
 .step {
